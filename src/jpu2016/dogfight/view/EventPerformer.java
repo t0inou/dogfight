@@ -7,14 +7,13 @@ import jpu2016.dogfight.controller.UserOrder;
 import jpu2016.gameframe.IEventPerformer;
 
 public class EventPerformer implements IEventPerformer{
-	UserOrder test = new UserOrder(); //suppression de la faute
 	
 	public EventPerformer(IOrderPerformer orderPerformer){
 		
 	}
 	
 	public UserOrder keyCodeToUserOrder(int keyCode){
-		return test;
+		return new UserOrder(); //lol
 	}
 	
 	@Override
